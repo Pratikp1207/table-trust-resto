@@ -76,7 +76,7 @@ function Register() {
         <div className="restaurant-logo">
           <div className="logo-icon" aria-hidden="true">🍽️</div>
           <div>
-            <h1>Willovate</h1>
+            <h1>Trust Table</h1>
             <span>RESTO</span>
           </div>
         </div>

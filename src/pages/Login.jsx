@@ -153,7 +153,7 @@ function Login({ onLogin }) {
 
           <div>
             <h1>
-              Willovate
+              Trust Table
             </h1>
 
             <span>

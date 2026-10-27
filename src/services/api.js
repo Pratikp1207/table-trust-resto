@@ -32,7 +32,7 @@ api.interceptors.response.use(
       localStorage.removeItem("token");
       localStorage.removeItem("user");
       localStorage.removeItem("isLoggedIn");
-      window.dispatchEvent(new Event("willovate:unauthorized"));
+      window.dispatchEvent(new Event("table-trust:unauthorized"));
     }
 
     return Promise.reject(error);

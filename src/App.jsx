@@ -314,10 +314,10 @@ function App() {
   }, []);
 
   useEffect(() => {
-    window.addEventListener("willovate:unauthorized", handleLogout);
+    window.addEventListener("table-trust:unauthorized", handleLogout);
 
     return () => {
-      window.removeEventListener("willovate:unauthorized", handleLogout);
+      window.removeEventListener("table-trust:unauthorized", handleLogout);
     };
   }, [handleLogout]);
 
