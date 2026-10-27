@@ -1,4 +1,4 @@
-# Willovate Resto
+# Table Trust Resto
 
 Willovate Resto is a restaurant-management web application with a React dashboard and an Express API backed by MongoDB. Staff can manage menu items, categories, tables, and orders after signing in.
 
@@ -23,7 +23,7 @@ There is no preconfigured account or seed data. Create an account from the front
 ## Project structure
 
 ```text
-willovate-resto/
+table-trust-resto/
 ├── backend/
 │   ├── controllers/       # Authentication, food, and order handlers
 │   ├── middleware/        # JWT authentication
@@ -64,7 +64,7 @@ Replace `<repository-url>` with the clone URL for your copy of this repository:
 
 ```sh
 git clone <repository-url>
-cd willovate-resto
+cd table-trust-resto
 ```
 
 ### 2. Install
