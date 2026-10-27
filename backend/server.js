@@ -23,7 +23,7 @@ app.use("/api/auth",authRoutes);
 
 app.get("/", (req, res) => {
   res.json({
-    message: "Willovate Resto Backend is running"
+    message: "Table Trust Resto Backend is running"
   });
 });
 

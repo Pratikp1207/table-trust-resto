@@ -1,6 +1,6 @@
 # Table Trust Resto
 
-Willovate Resto is a restaurant-management web application with a React dashboard and an Express API backed by MongoDB. Staff can manage menu items, categories, tables, and orders after signing in.
+Table Trust Resto is a restaurant-management web application with a React dashboard and an Express API backed by MongoDB. Staff can manage menu items, categories, tables, and orders after signing in.
 
 ## Features
 
@@ -24,6 +24,7 @@ There is no preconfigured account or seed data. Create an account from the front
 
 ```text
 table-trust-resto/
+
 ├── backend/
 │   ├── controllers/       # Authentication, food, and order handlers
 │   ├── middleware/        # JWT authentication
@@ -94,7 +95,7 @@ Copy-Item backend\.env.example backend\.env
 Edit `backend\.env` and set `MONGO_URI` to your MongoDB connection string. For local MongoDB, the example uses:
 
 ```dotenv
-MONGO_URI=mongodb://127.0.0.1:27017/willovate-resto
+MONGO_URI=mongodb://127.0.0.1:27017/table-trust-resto
 ```
 
 Replace the example `JWT_SECRET` with a long, random secret. For example, generate one locally with:

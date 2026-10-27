@@ -41,7 +41,7 @@ function Navbar({ sidebarOpen, setSidebarOpen, onLogout }) {
       <div className="navbar-logo">
 
         <h2>
-          Willovate Resto
+          Table Trust Resto
         </h2>
 
       </div>
